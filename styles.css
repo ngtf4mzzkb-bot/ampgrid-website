@@ -292,7 +292,7 @@ footer{
   display:flex;align-items:center;justify-content:space-between;
   flex-wrap:wrap;gap:16px;
 }
-.blog-cta p{font-size:15px;margin:0;}
+.blog-cta p{font-size:15px;margin:0;color:var(--text-light);}
 
 /* BLOG INDEX */
 .blog-index-grid{
