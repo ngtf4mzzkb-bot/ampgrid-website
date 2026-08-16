@@ -47,6 +47,7 @@ nav .wrap{
   transition:color .15s ease;
 }
 .nav-links a:hover{color:var(--text-light);}
+.nav-links a.btn, .nav-links a.btn:hover{color:#0b0d0a;}
 .btn{
   display:inline-block;
   background:var(--accent);
@@ -57,7 +58,7 @@ nav .wrap{
   border-radius:999px;
   transition:transform .15s ease, background .15s ease;
 }
-.btn:hover{background:var(--text-light);}
+.btn:hover{background:var(--text-light);transform:translateY(-2px);box-shadow:0 8px 18px rgba(0,0,0,0.18);}
 
 /* HERO */
 .hero{
@@ -208,7 +209,9 @@ h2{
 .cta-card{
   background:#0b0d0a;color:#f5f5ef;border-radius:16px;padding:32px 28px;
   display:flex;flex-direction:column;
+  transition:transform .2s ease, box-shadow .2s ease;
 }
+.cta-card:hover{transform:translateY(-6px);box-shadow:0 16px 32px rgba(0,0,0,0.3);}
 .cta-card h3{
   font-family:var(--serif);font-weight:500;font-size:19px;
   margin-bottom:10px;color:#f5f5ef;
